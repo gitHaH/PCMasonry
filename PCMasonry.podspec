@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PCMasonry'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of PCMasonry.'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PCMasonry/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PCMasonry' => ['PCMasonry/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'PCMasonry' => ['PCMasonry/Assets/*.xcprivacy']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
