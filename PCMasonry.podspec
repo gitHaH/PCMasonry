@@ -17,15 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = %{
+      Privacy
+      Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
+      Masonry has its own layout DSL which provides a chainable way of describing your
+      NSLayoutConstraints which results in layout code which is more concise and readable.
+      Masonry supports iOS and Mac OSX.
+    }
 
-  s.homepage         = 'https://github.com/zhangmengmeng/PCMasonry'
+  s.homepage         = 'https://github.com/gitHaH/PCMasonry'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangmengmeng' => '1006520276@qq.com' }
-  s.source           = { :git => 'https://github.com/zhangmengmeng/PCMasonry.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gitHaH/PCMasonry.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

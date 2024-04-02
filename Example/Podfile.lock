@@ -1,0 +1,16 @@
+PODS:
+  - PCMasonry (0.1.0)
+
+DEPENDENCIES:
+  - PCMasonry (from `../`)
+
+EXTERNAL SOURCES:
+  PCMasonry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PCMasonry: 96b4280d7c0ad4fde1421576396080dbbcc35c0b
+
+PODFILE CHECKSUM: 39fbbc726802d89357d225d977df165a93aaf4cb
+
+COCOAPODS: 1.15.2

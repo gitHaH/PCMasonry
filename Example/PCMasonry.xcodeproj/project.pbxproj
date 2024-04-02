@@ -22,6 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		68A10B502BBBF89E00239C51 /* ZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A10B4F2BBBF89E00239C51 /* ZPerson.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -57,14 +58,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		68A10B4E2BBBF89E00239C51 /* ZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPerson.h; sourceTree = "<group>"; };
+		68A10B4F2BBBF89E00239C51 /* ZPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPerson.m; sourceTree = "<group>"; };
 		6B460C716E2542B033EF7EEE /* Pods-PCMasonry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMasonry_Example.release.xcconfig"; path = "Target Support Files/Pods-PCMasonry_Example/Pods-PCMasonry_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6D37D2DD4D42844F7580C255 /* PCMasonry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PCMasonry.podspec; path = ../PCMasonry.podspec; sourceTree = "<group>"; };
+		6D37D2DD4D42844F7580C255 /* PCMasonry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PCMasonry.podspec; path = ../PCMasonry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7495247E9009E5C0C36FF210 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7495247E9009E5C0C36FF210 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		770FBAED79D3FA41538BE4CD /* Pods-PCMasonry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMasonry_Tests.release.xcconfig"; path = "Target Support Files/Pods-PCMasonry_Tests/Pods-PCMasonry_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		85248BD1F060BEB8AA3C116F /* Pods-PCMasonry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMasonry_Example.debug.xcconfig"; path = "Target Support Files/Pods-PCMasonry_Example/Pods-PCMasonry_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E372AD1E0F46C9B88AA7294F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E372AD1E0F46C9B88AA7294F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5140F9681CB409209A80AA6 /* Pods-PCMasonry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCMasonry_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PCMasonry_Tests/Pods-PCMasonry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC9E4735ECAFD3B05670D81B /* Pods_PCMasonry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCMasonry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* ZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZAppDelegate.m */,
+				68A10B4E2BBBF89E00239C51 /* ZPerson.h */,
+				68A10B4F2BBBF89E00239C51 /* ZPerson.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZViewController.h */,
 				6003F5A6195388D20070C39A /* ZViewController.m */,
@@ -193,7 +198,6 @@
 				F5140F9681CB409209A80AA6 /* Pods-PCMasonry_Tests.debug.xcconfig */,
 				770FBAED79D3FA41538BE4CD /* Pods-PCMasonry_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZAppDelegate.m in Sources */,
+				68A10B502BBBF89E00239C51 /* ZPerson.m in Sources */,
 				6003F5A7195388D20070C39A /* ZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

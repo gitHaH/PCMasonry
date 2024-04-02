@@ -1,0 +1,6 @@
+framework module PCMasonry {
+  umbrella header "PCMasonry-umbrella.h"
+
+  export *
+  module * { export * }
+}
