@@ -1,0 +1,15 @@
+//
+//  ZAppDelegate.h
+//  PCMasonry
+//
+//  Created by zhangmengmeng on 04/02/2024.
+//  Copyright (c) 2024 zhangmengmeng. All rights reserved.
+//
+
+@import UIKit;
+
+@interface ZAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
