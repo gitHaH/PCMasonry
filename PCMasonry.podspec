@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangmengmeng' => '1006520276@qq.com' }
-  s.source           = { :git => 'https://github.com/gitHaH/PCMasonry.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gitHaH/PCMasonry.git', :tag => '1.0.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.source_files = 'PCMasonry/Classes/**/*'
   
   s.resource_bundles = {
-     'PCMasonry' => ['PCMasonry/Assets/*.xcprivacy']
+     'PCMasonry' => ['PCMasonry/Assets/PrivacyInfo.xcprivacy']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
